@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 
-namespace Talgat.Magafurov.ViewModels
+namespace Talgat.Magafurov.Components.ViewModels
 {
     public class RelayCommand : ICommand
     {

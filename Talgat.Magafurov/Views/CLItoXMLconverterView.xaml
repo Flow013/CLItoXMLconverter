@@ -17,6 +17,7 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto" />
+            <RowDefinition Height="30" />
             <RowDefinition />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
@@ -40,8 +41,14 @@
                 HorizontalAlignment="Right"
                 VerticalAlignment="Top" />
 
+        <ProgressBar Grid.Row="1" Grid.ColumnSpan="2"
+                     Margin="8,2"
+                     Value="{Binding ProgressBarProp.ProgressBarValue}" 
+                     Maximum="{Binding ProgressBarProp.ProgressBarMax}" 
+                     Minimum="{Binding ProgressBarProp.ProgressBarMin}"/>
+
         <DataGrid ItemsSource="{Binding Items}"
-                  Grid.Row="1"
+                  Grid.Row="2"
                   Grid.ColumnSpan="2"
                   Margin="8,4,8,8"
                   IsReadOnly="True"

@@ -58,8 +58,10 @@
     <Compile Include="Controls\Behaviours\CustomColumnHeadersProperty.cs" />
     <Compile Include="Converters\ApplicationTypeConverter.cs" />
     <Compile Include="Models\CLItoXMLconverterModel.cs" />
+    <Compile Include="ViewModels\BaseViewModel.cs" />
     <Compile Include="ViewModels\CLItoXMLconverterViewModel.cs" />
-    <Compile Include="ViewModels\RelayCommand.cs" />
+    <Compile Include="ViewModels\Components\ProgressBarProp.cs" />
+    <Compile Include="ViewModels\Components\RelayCommand.cs" />
     <Compile Include="Views\CLItoXMLconverterView.xaml.cs">
       <DependentUpon>CLItoXMLconverterView.xaml</DependentUpon>
     </Compile>
